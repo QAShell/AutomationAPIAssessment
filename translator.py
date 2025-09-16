@@ -12,8 +12,8 @@ def test_translate_to_spanish():
         response = requests.get(url_postman, params=params)
     except requests.exceptions.RequestException as e:
         assert False, f"Request failed: {e}"
-
     assert response.status_code == 200, f"Expected status 200, got {response.status_code}"
+
     try:
         data = response.json()
     except ValueError as e:
