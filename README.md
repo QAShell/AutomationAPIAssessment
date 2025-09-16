@@ -8,7 +8,7 @@ requests - for making HTTP calls
 pytest - for running tests and assertions
 
 Setup and test instructions: 
-1. clone the repoository
+1. clone the repoository using the url: https://github.com/QAShell/AutomationAPIAssessment.git
 2. run the test in solution or in terminal: pytest translator.py
 
 Test objective:
