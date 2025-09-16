@@ -18,8 +18,13 @@ Expected output:
 200 OK
 "manzana"
 
+Reporting:
+1. in the terminal of solution install pip install pytest-html
+2. run this command in the terminal: pytest translator.py --html=report.html --self-contained-html
+3. a file url with html report will be generated
+
+
 Extra info:
 -The mock API is hosted on Postman and is expected to respond to:
 GET /translate?query=apple&locale=es-ES
 -rate limits apply, in the event of the end point returning a 429 error code then set up a mock server and retest with new end point. 
-
