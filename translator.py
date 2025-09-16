@@ -21,16 +21,3 @@ def test_translate_to_spanish():
 
     assert "translation" in data, f"'translation' key not found in response"
     assert data["translation"] == "manzana", f"expected 'manzana' but got {data["translation"]} instead"
-
-#todo:
-#create repo on github
-#create readme file with instructions for tester how to run the test
-#find out what tools they use and replicate here
-
-
-
-
-
-
-
-
