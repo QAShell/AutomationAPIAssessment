@@ -5,8 +5,8 @@ Tools used:
 1. Postman - end point to test: https://01ab874a-b8f9-4252-9d82-5818920315d5.mock.pstmn.io/translate
 2. Python 3
 3. Pycharm
-4. requests - library for making HTTP calls
-5. pytest - for running tests and assertions
+4. requests - 3rd party library for making HTTP calls. run: pip install requests
+5. Pytest - for running tests and assertions
 
 Setup and test instructions: 
 1. clone the repoository using the url: https://github.com/QAShell/AutomationAPIAssessment.git
