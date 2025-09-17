@@ -20,4 +20,4 @@ def test_translate_to_spanish():
         assert False, f"Response was not valid: {e}"
 
     assert "translation" in data, f"'translation' key not found in response"
-    assert data["translation"] == "manzana", f"expected 'manzana' but got {data["translation"]} instead"
+    assert data["translation"] == "manzana", f"expected 'manzana' but got {data['translation']} instead"
